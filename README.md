@@ -15,7 +15,7 @@ After the car is running, the goal will be to have the car run with flex fuel. T
 will need to be added as well as other supporting fuel system upgrades. Once all hardware upgrades are complete on the car, a new tune will 
 be created to get the car to run.
 
-## After Phase 2:
+### After Phase 2:
 After the car sucessfully runs on the Speeduino with flex fuel, the goal will be to run the car with a coil on plug conversion. First, we can 
 get the car to run with the distributor still on the car but not using it for spark. It will be used for crank reference. After the car 
 sucessfully runs with a coil on plug conversion, using the distributor as a crank reference, a distributor delete will be worked on. This will 
