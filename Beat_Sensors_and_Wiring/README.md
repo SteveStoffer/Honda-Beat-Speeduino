@@ -73,11 +73,11 @@ The Beat has a 3 wire VSS from factory.
 ## Injectors:
 Injector #1:
 - (ECU A1) Red to PIN 1 (v0.4.x) Injector 1 - PIN 1/2
-- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x) \
+- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x) 
 
 Injector #2:
 - (ECU A23) Light Blue to PIN 2 (v0.4.x) Injector 2 - PIN 1/2
-- (ECU A3 Spliced A25) Red / Black PIN TBD (v0.4.x) \
+- (ECU A3 Spliced A25) Red / Black PIN TBD (v0.4.x) 
 
 Injector #3:
 - (ECU A5) Yellow to PIN 3 (v0.4.x) Injector 3 - PIN 1/2
