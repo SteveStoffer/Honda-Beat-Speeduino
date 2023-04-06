@@ -31,8 +31,8 @@ The Beat has a 3 wire TPS sensor from factory. It has 1 5V+ wire, 1 5V- wire, an
 - (ECU D11 Signal) Green to PIN 22 (v0.4.x) TPS Input
 - (ECU D20 5v-) Brown / Black to PIN 12 (v0.4.x)
 
-## MAP (external) NOTE: not using factory MAP sensor in our tests:
-**NOTE: THIS IS NOT TESTED, TEST THE MAP SENSOR FIRST**
+## MAP (external):
+**NOTE: THIS IS NOT TESTED, TEST THE MAP SENSOR FIRST**\
 The Beat has a 3 wire MAP sensor from factory. Initial tests will not use this and use the internal MAP sensor on the Speeduino. 
 It has 1 ground wire, 1 VRef, and one signal wire.
 - (ECU D13 Signal) White PIN 11 (v0.4.x) Map Sensor (0v - 5v)
@@ -59,8 +59,8 @@ Using Bosch or Denso LSU 4.9 wideband with Spartan 2 controller.
 
 ## EACV (IAC - Intake Air Control Valve):
 The Beat has a 2 wire EACV from factory. Unsure of wiring to speeduino for now. 
-- (ECU A9) Light Blue (changes to) Black / Blue
-- (ECU A23 Spliced A25) Red / Black to PIN 9 (v0.4.x)
+- (ECU A9) Light Blue (changes to) Black / Blue to PIN 37 (v0.4.x) PWM Idle
+- (ECU A23 Spliced A25) Red / Black to PIN TBD (v0.4.x)
 
 ## VSS:
 The Beat has a 3 wire VSS from factory.
@@ -73,14 +73,16 @@ The Beat has a 3 wire VSS from factory.
 ## Injectors:
 Injector #1:
 - (ECU A1) Red to PIN 1 (v0.4.x) Injector 1 - PIN 1/2
-- (ECU A23 Spliced A25) Red / Black PIN 9 (v0.4.x) 
+- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x) 
 Injector #2:
 - (ECU A23) Light Blue to PIN 2 (v0.4.x) Injector 2 - PIN 1/2
-- (ECU A3 Spliced A25) Red / Black PIN 9 (v0.4.x) 
+- (ECU A3 Spliced A25) Red / Black PIN TBD (v0.4.x) 
 Injector #3:
 - (ECU A5) Yellow to PIN 3 (v0.4.x) Injector 3 - PIN 1/2
-- (ECU A23 Spliced A25) Red / Black PIN 9 (v0.4.x)
+- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x)
 
 ## Coil / Ignitor:
 - (ECU A15 Spliced A16) White to PIN 7 (v0.4.x) Ignition 1
+
+(ECU D1 12v+ 7.5A for ECU) Thin White / Blue
 
