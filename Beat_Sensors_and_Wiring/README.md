@@ -31,7 +31,7 @@ The Beat has a 3 wire TPS sensor from factory. It has 1 5V+ wire, 1 5V- wire, an
 - (ECU D11 Signal) Green to PIN 22 (v0.4.x) TPS Input
 - (ECU D20 5v-) Brown / Black to PIN 12 (v0.4.x)
 
-## MAP (external, note: not using factory MAP sensor in our tests):
+## MAP (external) NOTE: not using factory MAP sensor in our tests:
 **NOTE: THIS IS NOT TESTED, TEST THE MAP SENSOR FIRST**
 The Beat has a 3 wire MAP sensor from factory. Initial tests will not use this and use the internal MAP sensor on the Speeduino. 
 It has 1 ground wire, 1 VRef, and one signal wire.
