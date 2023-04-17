@@ -64,7 +64,7 @@ The Beat has a 2 wire EACV from factory. Unsure of wiring to speeduino for now.
 
 ## VSS:
 The Beat has a 3 wire VSS from factory.
-- (ECU D3) Light Blue (changes to) Yellow / Red -------- Cluster ---- ECU (PIN TBD / Not Needed)
+- (ECU D3) Light Blue (changes to) Yellow / Red -------- Cluster ---- ECU (PIN 15, Arduino PIN 20)
 - Yellow / Black (changes to) Yellow -- 10A Key On.
 - Black - Ground
 
@@ -73,16 +73,64 @@ The Beat has a 3 wire VSS from factory.
 ## Injectors:
 Injector #1:
 - (ECU A1) Red to PIN 1 (v0.4.x) Injector 1 - PIN 1/2
-- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x) 
+- (ECU A23 Spliced A25) Red / Black 12v+ (v0.4.x) 
 Injector #2:
-- (ECU A23) Light Blue to PIN 2 (v0.4.x) Injector 2 - PIN 1/2
-- (ECU A3 Spliced A25) Red / Black PIN TBD (v0.4.x) 
+- (ECU A2) Light Blue to PIN 2 (v0.4.x) Injector 2 - PIN 1/2
+- (ECU A23 Spliced A25) Red / Black 12v+ (v0.4.x) 
 Injector #3:
 - (ECU A5) Yellow to PIN 3 (v0.4.x) Injector 3 - PIN 1/2
-- (ECU A23 Spliced A25) Red / Black PIN TBD (v0.4.x)
+- (ECU A23 Spliced A25) Red / Black 12v+ (v0.4.x)
 
 ## Coil / Ignitor:
 - (ECU A15 Spliced A16) White to PIN 7 (v0.4.x) Ignition 1
 
-(ECU D1 12v+ 7.5A for ECU) Thin White / Blue
+# Honda Plug to Speeduino
+- A1 (#1 injector) to PIN 1
+- A2 (engine ground) to any ground PIN
+- A3 (#2 injector) to PIN 2
+- A4 (engine ground) to any ground PIN
+- A5 (#3 injector) to PIN 3
+- A6 (brake switch) N/A
+- A7 (main relay switched ground) to PIN 16
+- A8 spliced with A7
+- A9 (IACV) to PIN 37
+- A10 (02 sensor heater) N/A
+- A11 (CEL) N/A
+- A12 (empty)
+- A13 (A/C compressor clutch) N/A
+- A14 (empty)
+- A15 (coil) to PIN 7
+- A16 spliced with A15
+- A17 (empty)
+- A18 (empty)
+- A19 (main relay 12v+) N/A
+- A20 (A/C dash switch) N/A
+- A23 (12v+ main relay) N/A
+- A24 (engine ground) ground terminal
+- A25 spliced with A23
+- A26 (ening ground) ground terminal
+
+- D1 (ECU backup 7.5 a) N/A
+- D2 (empty)
+- D3 (VSS signal) to PIN 15, must program to Arduino PIN 20
+- D4 (scs connector) N/A
+- D5 (CYPP) to PIN 24
+- D6 (CYPM) to PIN 26
+- D7 (TDCP) N/A
+- D8 (TDCM) N/A
+- D9 (CKPP) to PIN 25
+- D10 (CKPM) to PIN 27
+- D11 (TPS signal) to PIN 22
+- D12 (empty)
+- D13 (MAP signal) to PIN 11
+- D14 (Alternator) N/A
+- D15 (IAT signal) to PIN 20
+- D16 (empty)
+- D17 (ECT) to PIN 19 
+- D18 (o2 sensor lambda output) to PIN 21 / Wideband Controller
+- D19 (MAP sensor ground, dedicated) to any ground PIN
+- D20 (Shared sensor ground) to any ground PIN
+- D21 (MAP sensor 5v+) to PIN 28
+- D22 (TPS 5v+) to PIN 13
+
 
